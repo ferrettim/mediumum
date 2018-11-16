@@ -1,6 +1,6 @@
 {
     "name": "mediumum.medium",
-    "description": "Mediumum is an unofficial Medium app, a website dedicated to writing and sharing longform content.",
+    "description": "Mediumum is an unofficial Medium app, a website dedicated to writing and sharing longform content on Ubuntu Touch.",
     "architecture": "armhf",
     "title": "Mediumum",
     "hooks": {
