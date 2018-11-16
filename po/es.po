@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Mediumum\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-14 12:05+0000\n"
-"PO-Revision-Date: 2018-11-14 14:13+0100\n"
-"Last-Translator: geekvine\n"
+"PO-Revision-Date: 2018-11-16 23:14+0000\n"
+"Last-Translator: advocatux <advocatux@airpost.net>\n"
 "Language-Team: UBports Spanish Team\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -99,7 +99,7 @@ msgstr "Acerca de Medium v1.0"
 
 #: ../qml/AboutPage.qml:9
 msgid "Mediumum is an unofficial Medium app, a website dedicated to writing and sharing longform content on Ubuntu Touch."
-msgstr "Mediumum is un aplicacion para usar Medium en Ubuntu Touch."
+msgstr "Mediumum es un aplicación no oficial para usar Medium, un sitio para escribir y compartir contenidos extensos, en Ubuntu Touch."
 
 #: ../qml/AboutPage.qml:13
 msgid ""
@@ -111,8 +111,8 @@ msgstr ""
 
 #: ../qml/AboutPage.qml:18
 msgid "This app is not affiliated with Medium"
-msgstr "Esta aplicacion no esta afiliada con Medium"
+msgstr "Esta aplicación no está afiliada a Medium"
 
 #: ../qml/AboutPage.qml:22
 msgid "OK"
-msgstr "Aceptar"
+msgstr "Aceptar" 
