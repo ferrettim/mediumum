@@ -115,4 +115,4 @@ msgstr "Esta aplicación no está afiliada a Medium"
 
 #: ../qml/AboutPage.qml:22
 msgid "OK"
-msgstr "Aceptar"
+msgstr "Aceptar" 
