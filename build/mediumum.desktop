@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Mediumum
+Exec=qmlscene %u qml/Main.qml --disable-gpu
+Icon=img/icon.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+X-Ubuntu-Splash-Color=#1dcaff
+X-Ubuntu-Default-Department-ID=communication
+Name[nl_BE]=Mediumum.desktop

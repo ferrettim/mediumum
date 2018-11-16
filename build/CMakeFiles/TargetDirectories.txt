@@ -1,0 +1,17 @@
+/home/martin/Downloads/medium-master/build/CMakeFiles/install.dir
+/home/martin/Downloads/medium-master/build/CMakeFiles/list_install_components.dir
+/home/martin/Downloads/medium-master/build/CMakeFiles/rebuild_cache.dir
+/home/martin/Downloads/medium-master/build/CMakeFiles/edit_cache.dir
+/home/martin/Downloads/medium-master/build/CMakeFiles/mediumum.desktop.dir
+/home/martin/Downloads/medium-master/build/CMakeFiles/install/strip.dir
+/home/martin/Downloads/medium-master/build/CMakeFiles/Mediumum_ClickFiles.dir
+/home/martin/Downloads/medium-master/build/CMakeFiles/install/local.dir
+/home/martin/Downloads/medium-master/build/po/CMakeFiles/install.dir
+/home/martin/Downloads/medium-master/build/po/CMakeFiles/list_install_components.dir
+/home/martin/Downloads/medium-master/build/po/CMakeFiles/rebuild_cache.dir
+/home/martin/Downloads/medium-master/build/po/CMakeFiles/edit_cache.dir
+/home/martin/Downloads/medium-master/build/po/CMakeFiles/mediumum.medium.pot.dir
+/home/martin/Downloads/medium-master/build/po/CMakeFiles/pofiles.dir
+/home/martin/Downloads/medium-master/build/po/CMakeFiles/install/local.dir
+/home/martin/Downloads/medium-master/build/po/CMakeFiles/pofiles_1.dir
+/home/martin/Downloads/medium-master/build/po/CMakeFiles/install/strip.dir
