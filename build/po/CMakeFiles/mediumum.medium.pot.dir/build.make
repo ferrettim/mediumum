@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/martin/Downloads/medium-master
+CMAKE_SOURCE_DIR = /media/martin/Media/Documents/UbuntuTouch/mediumum-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/martin/Downloads/medium-master/build
+CMAKE_BINARY_DIR = /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build
 
 # Utility rule file for mediumum.medium.pot.
 
@@ -54,10 +54,10 @@ CMAKE_BINARY_DIR = /home/martin/Downloads/medium-master/build
 include po/CMakeFiles/mediumum.medium.pot.dir/progress.make
 
 po/CMakeFiles/mediumum.medium.pot:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/martin/Downloads/medium-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating translation template"
-	cd /home/martin/Downloads/medium-master/build/po && /usr/bin/intltool-extract --update --type=gettext/ini --srcdir=/home/martin/Downloads/medium-master mediumum.desktop.in
-	cd /home/martin/Downloads/medium-master/build/po && /usr/bin/xgettext -o mediumum.medium.pot -D /home/martin/Downloads/medium-master/po -D /home/martin/Downloads/medium-master/build/po --from-code=UTF-8 --c++ --qt --language=javascript --add-comments=TRANSLATORS --keyword=tr --keyword=tr:1,2 --keyword=N_ --keyword=_ --package-name='Mediumum' --copyright-holder='Martin Ferretti' ../qml/SadPage.qml ../qml/AboutPage.qml ../qml/actions/Copy.qml ../qml/actions/CopyLink.qml ../qml/actions/CopyImage.qml ../qml/actions/ShareLink.qml ../qml/actions/SaveImage.qml ../qml/MediaAccessDialog.qml ../qml/Downloader.qml ../qml/WebProcessMonitor.qml ../qml/PopupWindowOverlay.qml ../qml/PickerDialog.qml ../qml/Main.qml ../qml/ContentPickerDialog.qml ../qml/ContentDownloadDialog.qml ../qml/PopupWindowController.qml ../qml/components/BottomMenu.qml ../qml/ContentHandler.qml ../qml/OpenDialog.qml ../qml/js/mediumum-no-omniprompt.js ../qml/FileExtensionMapper.js ../qml/MimeTypeMapper.js mediumum.desktop.in.h
-	cd /home/martin/Downloads/medium-master/build/po && /usr/bin/cmake -E copy mediumum.medium.pot /home/martin/Downloads/medium-master/po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating translation template"
+	cd /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/po && /usr/bin/intltool-extract --update --type=gettext/ini --srcdir=/media/martin/Media/Documents/UbuntuTouch/mediumum-master mediumum.desktop.in
+	cd /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/po && /usr/bin/xgettext -o mediumum.medium.pot -D /media/martin/Media/Documents/UbuntuTouch/mediumum-master/po -D /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/po --from-code=UTF-8 --c++ --qt --language=javascript --add-comments=TRANSLATORS --keyword=tr --keyword=tr:1,2 --keyword=N_ --keyword=_ --package-name='Mediumum' --copyright-holder='Martin Ferretti' ../qml/AboutPage.qml ../qml/actions/Copy.qml ../qml/actions/CopyImage.qml ../qml/actions/CopyLink.qml ../qml/actions/SaveImage.qml ../qml/actions/ShareLink.qml ../qml/components/BottomMenu.qml ../qml/ContentDownloadDialog.qml ../qml/ContentHandler.qml ../qml/ContentPickerDialog.qml ../qml/Downloader.qml ../qml/Main.qml ../qml/MediaAccessDialog.qml ../qml/OpenDialog.qml ../qml/PickerDialog.qml ../qml/PopupWindowController.qml ../qml/PopupWindowOverlay.qml ../qml/SadPage.qml ../qml/WebProcessMonitor.qml ../qml/FileExtensionMapper.js ../qml/js/mediumum-no-omniprompt.js ../qml/MimeTypeMapper.js mediumum.desktop.in.h
+	cd /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/po && /usr/bin/cmake -E copy mediumum.medium.pot /media/martin/Media/Documents/UbuntuTouch/mediumum-master/po
 
 mediumum.medium.pot: po/CMakeFiles/mediumum.medium.pot
 mediumum.medium.pot: po/CMakeFiles/mediumum.medium.pot.dir/build.make
@@ -70,10 +70,10 @@ po/CMakeFiles/mediumum.medium.pot.dir/build: mediumum.medium.pot
 .PHONY : po/CMakeFiles/mediumum.medium.pot.dir/build
 
 po/CMakeFiles/mediumum.medium.pot.dir/clean:
-	cd /home/martin/Downloads/medium-master/build/po && $(CMAKE_COMMAND) -P CMakeFiles/mediumum.medium.pot.dir/cmake_clean.cmake
+	cd /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/po && $(CMAKE_COMMAND) -P CMakeFiles/mediumum.medium.pot.dir/cmake_clean.cmake
 .PHONY : po/CMakeFiles/mediumum.medium.pot.dir/clean
 
 po/CMakeFiles/mediumum.medium.pot.dir/depend:
-	cd /home/martin/Downloads/medium-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/martin/Downloads/medium-master /home/martin/Downloads/medium-master/po /home/martin/Downloads/medium-master/build /home/martin/Downloads/medium-master/build/po /home/martin/Downloads/medium-master/build/po/CMakeFiles/mediumum.medium.pot.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/martin/Media/Documents/UbuntuTouch/mediumum-master /media/martin/Media/Documents/UbuntuTouch/mediumum-master/po /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/po /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/po/CMakeFiles/mediumum.medium.pot.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : po/CMakeFiles/mediumum.medium.pot.dir/depend
 

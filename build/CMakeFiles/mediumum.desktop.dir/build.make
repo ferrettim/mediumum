@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/martin/Downloads/medium-master
+CMAKE_SOURCE_DIR = /media/martin/Media/Documents/UbuntuTouch/mediumum-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/martin/Downloads/medium-master/build
+CMAKE_BINARY_DIR = /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build
 
 # Utility rule file for mediumum.desktop.
 
@@ -54,9 +54,9 @@ CMAKE_BINARY_DIR = /home/martin/Downloads/medium-master/build
 include CMakeFiles/mediumum.desktop.dir/progress.make
 
 CMakeFiles/mediumum.desktop:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/martin/Downloads/medium-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Merging translations into mediumum.desktop..."
-	LC_ALL=C /usr/bin/intltool-merge -d -u /home/martin/Downloads/medium-master/po /home/martin/Downloads/medium-master/mediumum.desktop.in mediumum.desktop
-	sed -i 's/mediumum-//g' /home/martin/Downloads/medium-master/build/mediumum.desktop
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Merging translations into mediumum.desktop..."
+	LC_ALL=C /usr/bin/intltool-merge -d -u /media/martin/Media/Documents/UbuntuTouch/mediumum-master/po /media/martin/Media/Documents/UbuntuTouch/mediumum-master/mediumum.desktop.in mediumum.desktop
+	sed -i 's/mediumum-//g' /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/mediumum.desktop
 
 mediumum.desktop: CMakeFiles/mediumum.desktop
 mediumum.desktop: CMakeFiles/mediumum.desktop.dir/build.make
@@ -73,6 +73,6 @@ CMakeFiles/mediumum.desktop.dir/clean:
 .PHONY : CMakeFiles/mediumum.desktop.dir/clean
 
 CMakeFiles/mediumum.desktop.dir/depend:
-	cd /home/martin/Downloads/medium-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/martin/Downloads/medium-master /home/martin/Downloads/medium-master /home/martin/Downloads/medium-master/build /home/martin/Downloads/medium-master/build /home/martin/Downloads/medium-master/build/CMakeFiles/mediumum.desktop.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/martin/Media/Documents/UbuntuTouch/mediumum-master /media/martin/Media/Documents/UbuntuTouch/mediumum-master /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/mediumum.desktop.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mediumum.desktop.dir/depend
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/martin/Downloads/medium-master
+CMAKE_SOURCE_DIR = /media/martin/Media/Documents/UbuntuTouch/mediumum-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/martin/Downloads/medium-master/build
+CMAKE_BINARY_DIR = /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ install/strip/fast: install/strip
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/martin/Downloads/medium-master/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/martin/Downloads/medium-master/build/CMakeFiles /home/martin/Downloads/medium-master/build/po/CMakeFiles/progress.marks
-	cd /home/martin/Downloads/medium-master/build && $(MAKE) -f CMakeFiles/Makefile2 po/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/martin/Downloads/medium-master/build/CMakeFiles 0
+	cd /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build && $(CMAKE_COMMAND) -E cmake_progress_start /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/po/CMakeFiles/progress.marks
+	cd /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build && $(MAKE) -f CMakeFiles/Makefile2 po/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/martin/Downloads/medium-master/build && $(MAKE) -f CMakeFiles/Makefile2 po/clean
+	cd /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build && $(MAKE) -f CMakeFiles/Makefile2 po/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/martin/Downloads/medium-master/build && $(MAKE) -f CMakeFiles/Makefile2 po/preinstall
+	cd /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build && $(MAKE) -f CMakeFiles/Makefile2 po/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/martin/Downloads/medium-master/build && $(MAKE) -f CMakeFiles/Makefile2 po/preinstall
+	cd /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build && $(MAKE) -f CMakeFiles/Makefile2 po/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/martin/Downloads/medium-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 po/CMakeFiles/mediumum.medium.pot.dir/rule:
-	cd /home/martin/Downloads/medium-master/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/mediumum.medium.pot.dir/rule
+	cd /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/mediumum.medium.pot.dir/rule
 .PHONY : po/CMakeFiles/mediumum.medium.pot.dir/rule
 
 # Convenience name for target.
@@ -166,12 +166,12 @@ mediumum.medium.pot: po/CMakeFiles/mediumum.medium.pot.dir/rule
 
 # fast build rule for target.
 mediumum.medium.pot/fast:
-	cd /home/martin/Downloads/medium-master/build && $(MAKE) -f po/CMakeFiles/mediumum.medium.pot.dir/build.make po/CMakeFiles/mediumum.medium.pot.dir/build
+	cd /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build && $(MAKE) -f po/CMakeFiles/mediumum.medium.pot.dir/build.make po/CMakeFiles/mediumum.medium.pot.dir/build
 .PHONY : mediumum.medium.pot/fast
 
 # Convenience name for target.
 po/CMakeFiles/pofiles.dir/rule:
-	cd /home/martin/Downloads/medium-master/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles.dir/rule
+	cd /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles.dir/rule
 .PHONY : po/CMakeFiles/pofiles.dir/rule
 
 # Convenience name for target.
@@ -181,12 +181,12 @@ pofiles: po/CMakeFiles/pofiles.dir/rule
 
 # fast build rule for target.
 pofiles/fast:
-	cd /home/martin/Downloads/medium-master/build && $(MAKE) -f po/CMakeFiles/pofiles.dir/build.make po/CMakeFiles/pofiles.dir/build
+	cd /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build && $(MAKE) -f po/CMakeFiles/pofiles.dir/build.make po/CMakeFiles/pofiles.dir/build
 .PHONY : pofiles/fast
 
 # Convenience name for target.
 po/CMakeFiles/pofiles_1.dir/rule:
-	cd /home/martin/Downloads/medium-master/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_1.dir/rule
+	cd /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_1.dir/rule
 .PHONY : po/CMakeFiles/pofiles_1.dir/rule
 
 # Convenience name for target.
@@ -196,7 +196,7 @@ pofiles_1: po/CMakeFiles/pofiles_1.dir/rule
 
 # fast build rule for target.
 pofiles_1/fast:
-	cd /home/martin/Downloads/medium-master/build && $(MAKE) -f po/CMakeFiles/pofiles_1.dir/build.make po/CMakeFiles/pofiles_1.dir/build
+	cd /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build && $(MAKE) -f po/CMakeFiles/pofiles_1.dir/build.make po/CMakeFiles/pofiles_1.dir/build
 .PHONY : pofiles_1/fast
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/martin/Downloads/medium-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

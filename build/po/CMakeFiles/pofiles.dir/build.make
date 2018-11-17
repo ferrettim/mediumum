@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/martin/Downloads/medium-master
+CMAKE_SOURCE_DIR = /media/martin/Media/Documents/UbuntuTouch/mediumum-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/martin/Downloads/medium-master/build
+CMAKE_BINARY_DIR = /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build
 
 # Utility rule file for pofiles.
 
@@ -63,10 +63,10 @@ po/CMakeFiles/pofiles.dir/build: pofiles
 .PHONY : po/CMakeFiles/pofiles.dir/build
 
 po/CMakeFiles/pofiles.dir/clean:
-	cd /home/martin/Downloads/medium-master/build/po && $(CMAKE_COMMAND) -P CMakeFiles/pofiles.dir/cmake_clean.cmake
+	cd /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/po && $(CMAKE_COMMAND) -P CMakeFiles/pofiles.dir/cmake_clean.cmake
 .PHONY : po/CMakeFiles/pofiles.dir/clean
 
 po/CMakeFiles/pofiles.dir/depend:
-	cd /home/martin/Downloads/medium-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/martin/Downloads/medium-master /home/martin/Downloads/medium-master/po /home/martin/Downloads/medium-master/build /home/martin/Downloads/medium-master/build/po /home/martin/Downloads/medium-master/build/po/CMakeFiles/pofiles.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/martin/Media/Documents/UbuntuTouch/mediumum-master /media/martin/Media/Documents/UbuntuTouch/mediumum-master/po /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/po /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/po/CMakeFiles/pofiles.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : po/CMakeFiles/pofiles.dir/depend
 

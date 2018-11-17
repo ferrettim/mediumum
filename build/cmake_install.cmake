@@ -1,4 +1,4 @@
-# Install script for directory: /home/martin/Downloads/medium-master
+# Install script for directory: /media/martin/Media/Documents/UbuntuTouch/mediumum-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -41,7 +41,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/" TYPE FILE FILES "/home/martin/Downloads/medium-master/build/manifest.json")
+file(INSTALL DESTINATION "/" TYPE FILE FILES "/media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/manifest.json")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -53,7 +53,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/" TYPE FILE FILES "/home/martin/Downloads/medium-master/mediumum.apparmor")
+file(INSTALL DESTINATION "/" TYPE FILE FILES "/media/martin/Media/Documents/UbuntuTouch/mediumum-master/mediumum.apparmor")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -65,7 +65,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/" TYPE DIRECTORY FILES "/home/martin/Downloads/medium-master/qml")
+file(INSTALL DESTINATION "/" TYPE DIRECTORY FILES "/media/martin/Media/Documents/UbuntuTouch/mediumum-master/qml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -77,7 +77,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/" TYPE DIRECTORY FILES "/home/martin/Downloads/medium-master/img")
+file(INSTALL DESTINATION "/" TYPE DIRECTORY FILES "/media/martin/Media/Documents/UbuntuTouch/mediumum-master/img")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -89,12 +89,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/" TYPE FILE FILES "/home/martin/Downloads/medium-master/build/mediumum.desktop")
+file(INSTALL DESTINATION "/" TYPE FILE FILES "/media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/mediumum.desktop")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/martin/Downloads/medium-master/build/po/cmake_install.cmake")
+  include("/media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/po/cmake_install.cmake")
 
 endif()
 
@@ -106,5 +106,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/martin/Downloads/medium-master/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

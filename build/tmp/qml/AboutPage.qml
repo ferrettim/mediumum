@@ -5,7 +5,7 @@ import Ubuntu.Components.Popups 1.3
 Dialog {
             id: aboutDialog
             visible: false
-            title: i18n.tr("About Mediumum 1.0")
+            title: i18n.tr("About Mediumum 1.1")
             text: i18n.tr("Mediumum is an unofficial Medium app, a website dedicated to writing and sharing longform content on Ubuntu Touch.")
 
             Text {
@@ -16,11 +16,6 @@ Dialog {
             Text {
                 wrapMode: Text.WrapAtWordBoundaryOrAnywhere
                 text: i18n.tr('Mediumum is not affiliated with Medium.')
-            }
-
-            Button {
-                text: i18n.tr('Donate')
-                onClicked: Qt.openUrlExternally('')
             }
 
             Button {

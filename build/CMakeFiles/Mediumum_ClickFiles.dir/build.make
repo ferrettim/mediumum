@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/martin/Downloads/medium-master
+CMAKE_SOURCE_DIR = /media/martin/Media/Documents/UbuntuTouch/mediumum-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/martin/Downloads/medium-master/build
+CMAKE_BINARY_DIR = /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build
 
 # Utility rule file for Mediumum_ClickFiles.
 
@@ -67,6 +67,6 @@ CMakeFiles/Mediumum_ClickFiles.dir/clean:
 .PHONY : CMakeFiles/Mediumum_ClickFiles.dir/clean
 
 CMakeFiles/Mediumum_ClickFiles.dir/depend:
-	cd /home/martin/Downloads/medium-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/martin/Downloads/medium-master /home/martin/Downloads/medium-master /home/martin/Downloads/medium-master/build /home/martin/Downloads/medium-master/build /home/martin/Downloads/medium-master/build/CMakeFiles/Mediumum_ClickFiles.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/martin/Media/Documents/UbuntuTouch/mediumum-master /media/martin/Media/Documents/UbuntuTouch/mediumum-master /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/Mediumum_ClickFiles.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Mediumum_ClickFiles.dir/depend
 

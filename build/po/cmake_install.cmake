@@ -1,4 +1,4 @@
-# Install script for directory: /home/martin/Downloads/medium-master/po
+# Install script for directory: /media/martin/Media/Documents/UbuntuTouch/mediumum-master/po
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -41,6 +41,6 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/share/locale/es/LC_MESSAGES" TYPE FILE RENAME "mediumum.medium.mo" FILES "/home/martin/Downloads/medium-master/build/po/es.gmo")
+file(INSTALL DESTINATION "/share/locale/es/LC_MESSAGES" TYPE FILE RENAME "mediumum.medium.mo" FILES "/media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/po/es.gmo")
 endif()
 
