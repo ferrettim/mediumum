@@ -26,8 +26,8 @@ msgid "Reload"
 msgstr "Volver a cargar"
 
 #: ../qml/AboutPage.qml:8
-msgid "About Mediumum 1.2"
-msgstr "Acerca de Mediumum 1.2"
+msgid "About Mediumum 1.3"
+msgstr "Acerca de Mediumum 1.3"
 
 #: ../qml/AboutPage.qml:9
 msgid ""
