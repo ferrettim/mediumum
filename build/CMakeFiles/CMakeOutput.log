@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/media/martin/Media/Documents/
 Determining if the C compiler works passed with the following output:
 Change Dir: /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_70ea8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_70ea8.dir/build.make CMakeFiles/cmTC_70ea8.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_fe55b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fe55b.dir/build.make CMakeFiles/cmTC_fe55b.dir/build
 make[1]: Entering directory '/media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_70ea8.dir/testCCompiler.c.o
-/usr/bin/arm-linux-gnueabihf-gcc     -o CMakeFiles/cmTC_70ea8.dir/testCCompiler.c.o   -c /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_70ea8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70ea8.dir/link.txt --verbose=1
-/usr/bin/arm-linux-gnueabihf-gcc       CMakeFiles/cmTC_70ea8.dir/testCCompiler.c.o  -o cmTC_70ea8 -rdynamic 
+Building C object CMakeFiles/cmTC_fe55b.dir/testCCompiler.c.o
+/usr/bin/arm-linux-gnueabihf-gcc     -o CMakeFiles/cmTC_fe55b.dir/testCCompiler.c.o   -c /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_fe55b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe55b.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-gcc       CMakeFiles/cmTC_fe55b.dir/testCCompiler.c.o  -o cmTC_fe55b -rdynamic 
 make[1]: Leaving directory '/media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2570f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2570f.dir/build.make CMakeFiles/cmTC_2570f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_ffc65/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ffc65.dir/build.make CMakeFiles/cmTC_ffc65.dir/build
 make[1]: Entering directory '/media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2570f.dir/CMakeCCompilerABI.c.o
-/usr/bin/arm-linux-gnueabihf-gcc     -o CMakeFiles/cmTC_2570f.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_2570f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2570f.dir/link.txt --verbose=1
-/usr/bin/arm-linux-gnueabihf-gcc      -v CMakeFiles/cmTC_2570f.dir/CMakeCCompilerABI.c.o  -o cmTC_2570f -rdynamic  
+Building C object CMakeFiles/cmTC_ffc65.dir/CMakeCCompilerABI.c.o
+/usr/bin/arm-linux-gnueabihf-gcc     -o CMakeFiles/cmTC_ffc65.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_ffc65
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffc65.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-gcc      -v CMakeFiles/cmTC_ffc65.dir/CMakeCCompilerABI.c.o  -o cmTC_ffc65 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/arm-linux-gnueabihf-gcc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc-cross/arm-linux-gnueabihf/5/lto-wrapper
@@ -59,8 +59,8 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu/Linaro 5.4.0-6ubuntu1~16.04.9) 
 COMPILER_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/5/:/usr/lib/gcc-cross/arm-linux-gnueabihf/5/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/5/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/bin/
 LIBRARY_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/5/:/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib/:/lib/arm-linux-gnueabihf/:/lib/../lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/../lib/:/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2570f' '-rdynamic' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
- /usr/lib/gcc-cross/arm-linux-gnueabihf/5/collect2 -plugin /usr/lib/gcc-cross/arm-linux-gnueabihf/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabihf/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTmAA3W.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -z relro -o cmTC_2570f /usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib/crt1.o /usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib/crti.o /usr/lib/gcc-cross/arm-linux-gnueabihf/5/crtbegin.o -L/usr/lib/gcc-cross/arm-linux-gnueabihf/5 -L/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib -L/lib/arm-linux-gnueabihf -L/lib/../lib -L/usr/lib/arm-linux-gnueabihf -L/usr/lib/../lib -L/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib CMakeFiles/cmTC_2570f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc-cross/arm-linux-gnueabihf/5/crtend.o /usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ffc65' '-rdynamic' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/5/collect2 -plugin /usr/lib/gcc-cross/arm-linux-gnueabihf/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabihf/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1i4bo4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -z relro -o cmTC_ffc65 /usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib/crt1.o /usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib/crti.o /usr/lib/gcc-cross/arm-linux-gnueabihf/5/crtbegin.o -L/usr/lib/gcc-cross/arm-linux-gnueabihf/5 -L/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib -L/lib/arm-linux-gnueabihf -L/lib/../lib -L/usr/lib/arm-linux-gnueabihf -L/usr/lib/../lib -L/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib CMakeFiles/cmTC_ffc65.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc-cross/arm-linux-gnueabihf/5/crtend.o /usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib/crtn.o
 make[1]: Leaving directory '/media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp'
 
 
@@ -68,14 +68,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2570f/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_2570f.dir/build.make CMakeFiles/cmTC_2570f.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ffc65/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ffc65.dir/build.make CMakeFiles/cmTC_ffc65.dir/build]
   ignore line: [make[1]: Entering directory '/media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_2570f.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/arm-linux-gnueabihf-gcc     -o CMakeFiles/cmTC_2570f.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_2570f]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2570f.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/arm-linux-gnueabihf-gcc      -v CMakeFiles/cmTC_2570f.dir/CMakeCCompilerABI.c.o  -o cmTC_2570f -rdynamic  ]
+  ignore line: [Building C object CMakeFiles/cmTC_ffc65.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/arm-linux-gnueabihf-gcc     -o CMakeFiles/cmTC_ffc65.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_ffc65]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffc65.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/arm-linux-gnueabihf-gcc      -v CMakeFiles/cmTC_ffc65.dir/CMakeCCompilerABI.c.o  -o cmTC_ffc65 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/arm-linux-gnueabihf-gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc-cross/arm-linux-gnueabihf/5/lto-wrapper]
@@ -85,13 +85,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu/Linaro 5.4.0-6ubuntu1~16.04.9) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/5/:/usr/lib/gcc-cross/arm-linux-gnueabihf/5/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/5/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/5/:/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib/:/lib/arm-linux-gnueabihf/:/lib/../lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/../lib/:/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2570f' '-rdynamic' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
-  link line: [ /usr/lib/gcc-cross/arm-linux-gnueabihf/5/collect2 -plugin /usr/lib/gcc-cross/arm-linux-gnueabihf/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabihf/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTmAA3W.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -z relro -o cmTC_2570f /usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib/crt1.o /usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib/crti.o /usr/lib/gcc-cross/arm-linux-gnueabihf/5/crtbegin.o -L/usr/lib/gcc-cross/arm-linux-gnueabihf/5 -L/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib -L/lib/arm-linux-gnueabihf -L/lib/../lib -L/usr/lib/arm-linux-gnueabihf -L/usr/lib/../lib -L/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib CMakeFiles/cmTC_2570f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc-cross/arm-linux-gnueabihf/5/crtend.o /usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ffc65' '-rdynamic' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+  link line: [ /usr/lib/gcc-cross/arm-linux-gnueabihf/5/collect2 -plugin /usr/lib/gcc-cross/arm-linux-gnueabihf/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabihf/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1i4bo4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -z relro -o cmTC_ffc65 /usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib/crt1.o /usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib/crti.o /usr/lib/gcc-cross/arm-linux-gnueabihf/5/crtbegin.o -L/usr/lib/gcc-cross/arm-linux-gnueabihf/5 -L/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib -L/lib/arm-linux-gnueabihf -L/lib/../lib -L/usr/lib/arm-linux-gnueabihf -L/usr/lib/../lib -L/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib CMakeFiles/cmTC_ffc65.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc-cross/arm-linux-gnueabihf/5/crtend.o /usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib/crtn.o]
     arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabihf/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccTmAA3W.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc1i4bo4.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -110,7 +110,7 @@ Parsed C implicit link information from above output:
     arg [armelf_linux_eabi] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_2570f] ==> ignore
+    arg [cmTC_ffc65] ==> ignore
     arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib/crt1.o] ==> ignore
     arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib/crti.o] ==> ignore
     arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/5/crtbegin.o] ==> ignore
@@ -121,7 +121,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib] ==> dir [/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib]
-    arg [CMakeFiles/cmTC_2570f.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_ffc65.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -154,14 +154,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_dbee3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_dbee3.dir/build.make CMakeFiles/cmTC_dbee3.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_5afc0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5afc0.dir/build.make CMakeFiles/cmTC_5afc0.dir/build
 make[1]: Entering directory '/media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_dbee3.dir/feature_tests.c.o
-/usr/bin/arm-linux-gnueabihf-gcc    -std=c11 -o CMakeFiles/cmTC_dbee3.dir/feature_tests.c.o   -c /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_dbee3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbee3.dir/link.txt --verbose=1
-/usr/bin/arm-linux-gnueabihf-gcc       CMakeFiles/cmTC_dbee3.dir/feature_tests.c.o  -o cmTC_dbee3 -rdynamic 
+Building C object CMakeFiles/cmTC_5afc0.dir/feature_tests.c.o
+/usr/bin/arm-linux-gnueabihf-gcc    -std=c11 -o CMakeFiles/cmTC_5afc0.dir/feature_tests.c.o   -c /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5afc0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5afc0.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-gcc       CMakeFiles/cmTC_5afc0.dir/feature_tests.c.o  -o cmTC_5afc0 -rdynamic 
 make[1]: Leaving directory '/media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp'
 
 
@@ -174,14 +174,14 @@ make[1]: Leaving directory '/media/martin/Media/Documents/UbuntuTouch/mediumum-m
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4e34b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4e34b.dir/build.make CMakeFiles/cmTC_4e34b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_69f16/fast"
+/usr/bin/make -f CMakeFiles/cmTC_69f16.dir/build.make CMakeFiles/cmTC_69f16.dir/build
 make[1]: Entering directory '/media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4e34b.dir/feature_tests.c.o
-/usr/bin/arm-linux-gnueabihf-gcc    -std=c99 -o CMakeFiles/cmTC_4e34b.dir/feature_tests.c.o   -c /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_4e34b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e34b.dir/link.txt --verbose=1
-/usr/bin/arm-linux-gnueabihf-gcc       CMakeFiles/cmTC_4e34b.dir/feature_tests.c.o  -o cmTC_4e34b -rdynamic 
+Building C object CMakeFiles/cmTC_69f16.dir/feature_tests.c.o
+/usr/bin/arm-linux-gnueabihf-gcc    -std=c99 -o CMakeFiles/cmTC_69f16.dir/feature_tests.c.o   -c /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_69f16
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69f16.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-gcc       CMakeFiles/cmTC_69f16.dir/feature_tests.c.o  -o cmTC_69f16 -rdynamic 
 make[1]: Leaving directory '/media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp'
 
 
@@ -194,14 +194,14 @@ make[1]: Leaving directory '/media/martin/Media/Documents/UbuntuTouch/mediumum-m
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_21947/fast"
-/usr/bin/make -f CMakeFiles/cmTC_21947.dir/build.make CMakeFiles/cmTC_21947.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_8cdf2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8cdf2.dir/build.make CMakeFiles/cmTC_8cdf2.dir/build
 make[1]: Entering directory '/media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_21947.dir/feature_tests.c.o
-/usr/bin/arm-linux-gnueabihf-gcc    -std=c90 -o CMakeFiles/cmTC_21947.dir/feature_tests.c.o   -c /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_21947
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21947.dir/link.txt --verbose=1
-/usr/bin/arm-linux-gnueabihf-gcc       CMakeFiles/cmTC_21947.dir/feature_tests.c.o  -o cmTC_21947 -rdynamic 
+Building C object CMakeFiles/cmTC_8cdf2.dir/feature_tests.c.o
+/usr/bin/arm-linux-gnueabihf-gcc    -std=c90 -o CMakeFiles/cmTC_8cdf2.dir/feature_tests.c.o   -c /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8cdf2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8cdf2.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-gcc       CMakeFiles/cmTC_8cdf2.dir/feature_tests.c.o  -o cmTC_8cdf2 -rdynamic 
 make[1]: Leaving directory '/media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp'
 
 
@@ -212,28 +212,28 @@ make[1]: Leaving directory '/media/martin/Media/Documents/UbuntuTouch/mediumum-m
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3226e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3226e.dir/build.make CMakeFiles/cmTC_3226e.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b1d37/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b1d37.dir/build.make CMakeFiles/cmTC_b1d37.dir/build
 make[1]: Entering directory '/media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3226e.dir/testCXXCompiler.cxx.o
-/usr/bin/arm-linux-gnueabihf-g++      -o CMakeFiles/cmTC_3226e.dir/testCXXCompiler.cxx.o -c /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_3226e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3226e.dir/link.txt --verbose=1
-/usr/bin/arm-linux-gnueabihf-g++        CMakeFiles/cmTC_3226e.dir/testCXXCompiler.cxx.o  -o cmTC_3226e -rdynamic 
+Building CXX object CMakeFiles/cmTC_b1d37.dir/testCXXCompiler.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++      -o CMakeFiles/cmTC_b1d37.dir/testCXXCompiler.cxx.o -c /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_b1d37
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1d37.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++        CMakeFiles/cmTC_b1d37.dir/testCXXCompiler.cxx.o  -o cmTC_b1d37 -rdynamic 
 make[1]: Leaving directory '/media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_07d48/fast"
-/usr/bin/make -f CMakeFiles/cmTC_07d48.dir/build.make CMakeFiles/cmTC_07d48.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c1869/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c1869.dir/build.make CMakeFiles/cmTC_c1869.dir/build
 make[1]: Entering directory '/media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_07d48.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/arm-linux-gnueabihf-g++      -o CMakeFiles/cmTC_07d48.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_07d48
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07d48.dir/link.txt --verbose=1
-/usr/bin/arm-linux-gnueabihf-g++       -v CMakeFiles/cmTC_07d48.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_07d48 -rdynamic  
+Building CXX object CMakeFiles/cmTC_c1869.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/arm-linux-gnueabihf-g++      -o CMakeFiles/cmTC_c1869.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_c1869
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1869.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++       -v CMakeFiles/cmTC_c1869.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c1869 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/arm-linux-gnueabihf-g++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc-cross/arm-linux-gnueabihf/5/lto-wrapper
@@ -243,8 +243,8 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu/Linaro 5.4.0-6ubuntu1~16.04.9) 
 COMPILER_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/5/:/usr/lib/gcc-cross/arm-linux-gnueabihf/5/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/5/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/bin/
 LIBRARY_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/5/:/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib/:/lib/arm-linux-gnueabihf/:/lib/../lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/../lib/:/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_07d48' '-rdynamic' '-shared-libgcc' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
- /usr/lib/gcc-cross/arm-linux-gnueabihf/5/collect2 -plugin /usr/lib/gcc-cross/arm-linux-gnueabihf/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabihf/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjuWsiB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -z relro -o cmTC_07d48 /usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib/crt1.o /usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib/crti.o /usr/lib/gcc-cross/arm-linux-gnueabihf/5/crtbegin.o -L/usr/lib/gcc-cross/arm-linux-gnueabihf/5 -L/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib -L/lib/arm-linux-gnueabihf -L/lib/../lib -L/usr/lib/arm-linux-gnueabihf -L/usr/lib/../lib -L/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib CMakeFiles/cmTC_07d48.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc-cross/arm-linux-gnueabihf/5/crtend.o /usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c1869' '-rdynamic' '-shared-libgcc' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/5/collect2 -plugin /usr/lib/gcc-cross/arm-linux-gnueabihf/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabihf/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjpkoaj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -z relro -o cmTC_c1869 /usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib/crt1.o /usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib/crti.o /usr/lib/gcc-cross/arm-linux-gnueabihf/5/crtbegin.o -L/usr/lib/gcc-cross/arm-linux-gnueabihf/5 -L/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib -L/lib/arm-linux-gnueabihf -L/lib/../lib -L/usr/lib/arm-linux-gnueabihf -L/usr/lib/../lib -L/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib CMakeFiles/cmTC_c1869.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc-cross/arm-linux-gnueabihf/5/crtend.o /usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib/crtn.o
 make[1]: Leaving directory '/media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp'
 
 
@@ -252,14 +252,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_07d48/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_07d48.dir/build.make CMakeFiles/cmTC_07d48.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c1869/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_c1869.dir/build.make CMakeFiles/cmTC_c1869.dir/build]
   ignore line: [make[1]: Entering directory '/media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_07d48.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/arm-linux-gnueabihf-g++      -o CMakeFiles/cmTC_07d48.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_07d48]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07d48.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/arm-linux-gnueabihf-g++       -v CMakeFiles/cmTC_07d48.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_07d48 -rdynamic  ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_c1869.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/arm-linux-gnueabihf-g++      -o CMakeFiles/cmTC_c1869.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_c1869]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1869.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/arm-linux-gnueabihf-g++       -v CMakeFiles/cmTC_c1869.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c1869 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/arm-linux-gnueabihf-g++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc-cross/arm-linux-gnueabihf/5/lto-wrapper]
@@ -269,13 +269,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu/Linaro 5.4.0-6ubuntu1~16.04.9) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/5/:/usr/lib/gcc-cross/arm-linux-gnueabihf/5/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/5/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/5/:/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib/:/lib/arm-linux-gnueabihf/:/lib/../lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/../lib/:/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_07d48' '-rdynamic' '-shared-libgcc' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
-  link line: [ /usr/lib/gcc-cross/arm-linux-gnueabihf/5/collect2 -plugin /usr/lib/gcc-cross/arm-linux-gnueabihf/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabihf/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjuWsiB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -z relro -o cmTC_07d48 /usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib/crt1.o /usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib/crti.o /usr/lib/gcc-cross/arm-linux-gnueabihf/5/crtbegin.o -L/usr/lib/gcc-cross/arm-linux-gnueabihf/5 -L/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib -L/lib/arm-linux-gnueabihf -L/lib/../lib -L/usr/lib/arm-linux-gnueabihf -L/usr/lib/../lib -L/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib CMakeFiles/cmTC_07d48.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc-cross/arm-linux-gnueabihf/5/crtend.o /usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c1869' '-rdynamic' '-shared-libgcc' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+  link line: [ /usr/lib/gcc-cross/arm-linux-gnueabihf/5/collect2 -plugin /usr/lib/gcc-cross/arm-linux-gnueabihf/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabihf/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjpkoaj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -z relro -o cmTC_c1869 /usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib/crt1.o /usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib/crti.o /usr/lib/gcc-cross/arm-linux-gnueabihf/5/crtbegin.o -L/usr/lib/gcc-cross/arm-linux-gnueabihf/5 -L/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib -L/lib/arm-linux-gnueabihf -L/lib/../lib -L/usr/lib/arm-linux-gnueabihf -L/usr/lib/../lib -L/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib CMakeFiles/cmTC_c1869.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc-cross/arm-linux-gnueabihf/5/crtend.o /usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib/crtn.o]
     arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabihf/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccjuWsiB.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccjpkoaj.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -294,7 +294,7 @@ Parsed CXX implicit link information from above output:
     arg [armelf_linux_eabi] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_07d48] ==> ignore
+    arg [cmTC_c1869] ==> ignore
     arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib/crt1.o] ==> ignore
     arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib/../lib/crti.o] ==> ignore
     arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/5/crtbegin.o] ==> ignore
@@ -305,7 +305,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib] ==> dir [/usr/lib/gcc-cross/arm-linux-gnueabihf/5/../../../../arm-linux-gnueabihf/lib]
-    arg [CMakeFiles/cmTC_07d48.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_c1869.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -336,14 +336,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_75045/fast"
-/usr/bin/make -f CMakeFiles/cmTC_75045.dir/build.make CMakeFiles/cmTC_75045.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_330b0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_330b0.dir/build.make CMakeFiles/cmTC_330b0.dir/build
 make[1]: Entering directory '/media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_75045.dir/feature_tests.cxx.o
-/usr/bin/arm-linux-gnueabihf-g++     -std=c++14 -o CMakeFiles/cmTC_75045.dir/feature_tests.cxx.o -c /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_75045
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75045.dir/link.txt --verbose=1
-/usr/bin/arm-linux-gnueabihf-g++        CMakeFiles/cmTC_75045.dir/feature_tests.cxx.o  -o cmTC_75045 -rdynamic 
+Building CXX object CMakeFiles/cmTC_330b0.dir/feature_tests.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++     -std=c++14 -o CMakeFiles/cmTC_330b0.dir/feature_tests.cxx.o -c /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_330b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_330b0.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++        CMakeFiles/cmTC_330b0.dir/feature_tests.cxx.o  -o cmTC_330b0 -rdynamic 
 make[1]: Leaving directory '/media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp'
 
 
@@ -409,14 +409,14 @@ make[1]: Leaving directory '/media/martin/Media/Documents/UbuntuTouch/mediumum-m
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d761b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d761b.dir/build.make CMakeFiles/cmTC_d761b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_cce3a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cce3a.dir/build.make CMakeFiles/cmTC_cce3a.dir/build
 make[1]: Entering directory '/media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d761b.dir/feature_tests.cxx.o
-/usr/bin/arm-linux-gnueabihf-g++     -std=c++11 -o CMakeFiles/cmTC_d761b.dir/feature_tests.cxx.o -c /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_d761b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d761b.dir/link.txt --verbose=1
-/usr/bin/arm-linux-gnueabihf-g++        CMakeFiles/cmTC_d761b.dir/feature_tests.cxx.o  -o cmTC_d761b -rdynamic 
+Building CXX object CMakeFiles/cmTC_cce3a.dir/feature_tests.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++     -std=c++11 -o CMakeFiles/cmTC_cce3a.dir/feature_tests.cxx.o -c /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_cce3a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cce3a.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++        CMakeFiles/cmTC_cce3a.dir/feature_tests.cxx.o  -o cmTC_cce3a -rdynamic 
 make[1]: Leaving directory '/media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp'
 
 
@@ -482,14 +482,14 @@ make[1]: Leaving directory '/media/martin/Media/Documents/UbuntuTouch/mediumum-m
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_589b1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_589b1.dir/build.make CMakeFiles/cmTC_589b1.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_02446/fast"
+/usr/bin/make -f CMakeFiles/cmTC_02446.dir/build.make CMakeFiles/cmTC_02446.dir/build
 make[1]: Entering directory '/media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_589b1.dir/feature_tests.cxx.o
-/usr/bin/arm-linux-gnueabihf-g++     -std=c++98 -o CMakeFiles/cmTC_589b1.dir/feature_tests.cxx.o -c /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_589b1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_589b1.dir/link.txt --verbose=1
-/usr/bin/arm-linux-gnueabihf-g++        CMakeFiles/cmTC_589b1.dir/feature_tests.cxx.o  -o cmTC_589b1 -rdynamic 
+Building CXX object CMakeFiles/cmTC_02446.dir/feature_tests.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++     -std=c++98 -o CMakeFiles/cmTC_02446.dir/feature_tests.cxx.o -c /media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_02446
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02446.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++        CMakeFiles/cmTC_02446.dir/feature_tests.cxx.o  -o cmTC_02446 -rdynamic 
 make[1]: Leaving directory '/media/martin/Media/Documents/UbuntuTouch/mediumum-master/build/CMakeFiles/CMakeTmp'
 
 

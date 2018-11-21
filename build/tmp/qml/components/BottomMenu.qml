@@ -29,7 +29,7 @@ Rectangle {
         }
 
         Item {
-            width: parent.width/4
+            width: parent.width/5
             height: parent.height
 
             Icon {
@@ -49,7 +49,27 @@ Rectangle {
         }
 
         Item {
-            width: parent.width/4
+            width: parent.width/5
+            height: parent.height
+
+            Icon {
+                anchors.centerIn: parent
+                width: units.gu(2.9)
+                height: width
+                name: "bookmark"
+                color: "#000000"
+            }
+
+            MouseArea {
+                anchors.fill: parent
+                onClicked: {
+                    webview.url = 'https://medium.com/me/list/bookmarks'
+                }
+            }
+        }
+
+        Item {
+            width: parent.width/5
             height: parent.height
 
             Icon {
@@ -69,7 +89,7 @@ Rectangle {
         }
 
         Item {
-            width: parent.width/4
+            width: parent.width/5
             height: parent.height
 
             Icon {
@@ -89,7 +109,7 @@ Rectangle {
         }
 
         Item {
-            width: parent.width/4
+            width: parent.width/5
             height: parent.height
 
             Icon {

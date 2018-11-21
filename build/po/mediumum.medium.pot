@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mediumum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-17 20:31+0000\n"
+"POT-Creation-Date: 2018-11-21 05:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../qml/AboutPage.qml:8
-msgid "About Mediumum 1.1"
+msgid "About Mediumum 1.3"
 msgstr ""
 
 #: ../qml/AboutPage.qml:9

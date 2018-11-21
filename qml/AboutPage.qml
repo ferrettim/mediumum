@@ -5,7 +5,7 @@ import Ubuntu.Components.Popups 1.3
 Dialog {
             id: aboutDialog
             visible: false
-            title: i18n.tr("About Mediumum 1.1")
+            title: i18n.tr("About Mediumum 1.3")
             text: i18n.tr("Mediumum is an unofficial Medium app, a website dedicated to writing and sharing longform content on Ubuntu Touch.")
 
             Text {
